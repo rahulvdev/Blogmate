@@ -1,0 +1,19 @@
+button{
+    width:140px;
+}
+
+.icon{
+    font-size:2em;
+}
+
+.container.main{
+    margin-top:4em;
+}
+
+.segment .header,.segment .date{
+ text-align:center;   
+}
+
+.manipulate{
+    text-align:center;
+}

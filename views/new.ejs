@@ -1,0 +1,22 @@
+<% include partials/header %>
+<div class="ui container main">
+<div class="ui stacked segment">
+   <div class="ui huge header">Enter Blog Details</div> 
+   <form class="ui form" action="/blogs" method="POST">
+  <div class="field">
+    <label>Title</label>
+    <input type="text" name="blog[title]" placeholder="Title">
+  </div>
+  <div class="field">
+    <label>Image</label>
+    <input type="text" name="blog[image]" placeholder="Image URL">
+  </div>
+  <div class="field">
+      <label>Blog Description</label>
+      <textarea rows="10" cols="15" name="blog[description]"></textarea>
+  </div>
+  <button class="ui green button" type="submit">Submit</button>
+</form>
+</div>
+</div>
+<% include partials/footer %>
